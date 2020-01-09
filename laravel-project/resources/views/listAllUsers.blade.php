@@ -7,6 +7,8 @@
 <body>
 
 	<table>
+
+		@foreach($users as $user)
 		<tr>
 			<td>#ID</td>
 			<td>Nome: </td>
@@ -14,22 +16,20 @@
 			<td>Ações: </td>
 		</tr>
 
-		@foreach($users as $user)
 			<tr>
 				<td>{{ $user->id }}</td>
 				<td>{{ $user->name }}</td>
 				<td>{{ $user->email }}</td>
 				<td>
-					<a href="">Ver Usuário</a>
+					<a href="{{ route('user.show', ['user' => $user->id]) }}">Ver Usuário</a>
 					<form action="{{ route('user.destroy', ['user' => $user->id]) }}" method="post">
 						@csrf
 						@method('delete')
-						<input type="hidden" name="user" value="{{ $user->id }}">
 						<input type="submit" value="Remover">
 					</form>
 				</td>
 			</tr>
-		@endforeach
+			@endforeach
 	</table>
 
 

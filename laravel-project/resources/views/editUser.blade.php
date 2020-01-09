@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Cadastro de Usuário</title>
+	<title>Editar Usuário</title>
 </head>
 <body>
 
-	<form action="{{ route('users.edit', ['user' => $user->id ]) }}" method="post">
+	<form action="{{ route('user.update', ['user' => $user->id ]) }}" method="post">
 		@csrf
-		@method('PUT')
+		@method('put')
 		<label for="">Nome:</label>
 		<input type="text" name="name" value="{{ $user->name }}">
 
@@ -18,7 +18,7 @@
 		<label for="">Senha:</label>
 		<input type="password" name="password">	
 
-		<input type="submit" value="Alterar">
+		<input type="submit" value="Editar">
 
 	</form>
 

@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<form action="{{ route('users.store') }}" method="post">
+	<form action="{{ route('user.store') }}" method="post">
 		@csrf
 		<label for="">Nome:</label>
 		<input type="text" name="name">

@@ -1,2 +1,3 @@
-# laravel-project
-Utilizando o framework Laravel para um projeto.
+# Laravel Web Project
+
+Utilizando o framework Laravel para aprendizado e confecção de um projeto.

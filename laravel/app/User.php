@@ -36,15 +36,4 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    public function adress()
-    {
-        return $this->hasOne(Adress::class, 'user', 'id');
-    }
-
-    public function posts()
-    {
-        // Informa a chave estrangeira e a chave local. Lembrando que o Post pode mudar dependendo do caso.
-        return $this->hasMany(Post::class, 'user', 'id');
-    }
 }

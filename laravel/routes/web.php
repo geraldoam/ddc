@@ -15,8 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/usuario/{id}', 'UserController@show');
+Auth::routes();
 
-Route::get('/endereco/{adress}', 'AdressController@show');
+Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/artigo/{post}', 'PostController@show');
+// Criando uma espécie de painel de administração.
+Route::get('/admin', 'AuthController@dashboard')->name('admin');
+
+// Criando redirecionamento para fazer Login caso não esteja logado.
+Route::get('/admin/login', 'AuthController@showLoginForm')->name('admin.login');
+
+// Confirmando se o usuário existe.
+Route::post('/admin/login/do', 'AuthController@login')->name('admin.login.do');
+
+// Fazendo o Logout do Usuário.
+Route::get('/admin/logout', 'AuthController@logout')->name('admin.logout');

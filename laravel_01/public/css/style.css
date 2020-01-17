@@ -20,7 +20,7 @@ body{
 }
 
 navbarColorWhite:hover, .active{
-	color: #FFFFFF!important;
+	color: gray;
 }
 
 .navbarLoginPositionIcons{
@@ -61,7 +61,7 @@ navbarColorWhite:hover, .active{
 }
 
 .formFormatLogin{
-	margin-top: 100px;
+	margin-top: 180px;
 	width: 400px;
 	background-color: #393939;
 	padding: 30px;
@@ -69,7 +69,7 @@ navbarColorWhite:hover, .active{
 }
 
 .formFormatRegister{
-	margin-top: 80px;
+	margin-top: 120px;
 	width: 400px;
 	background-color: #393939;
 	padding: 30px;
@@ -115,3 +115,37 @@ navbarColorWhite:hover, .active{
 	background-color: #393939;
 	color: #FFFFFF;
 }
+
+
+/* Card */
+
+.cardSettings{
+	margin-top: 50px;
+}
+
+.cardColorSettings{
+	background-color: #333333;
+}
+
+.cardIconColors{
+	color: #38d45e;
+}
+
+.cardTitleColor{
+	color: #FFFFFF;
+}
+
+
+.cardTextColor{
+	color: #CFC7C7;
+}
+
+
+/* Footer */
+
+.footerPropriets{
+	color: white;
+	margin-top: 12%;
+
+}
+

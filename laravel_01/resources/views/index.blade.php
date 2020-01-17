@@ -39,6 +39,36 @@
     </ul>
 
 
+    <!--- Card --->
+
+  <center class="cardSettings">
+
+      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
+        <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
+        <div class="card-body">
+          <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
+          <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: cyan" href="https://github.com/i386angel">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
+        </div>
+      </div>
+
+      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
+        <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
+        <div class="card-body">
+          <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
+          <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Além disso, ninguém gosta de carregar peso, não é mesmo?</p>
+        </div>
+      </div>
+
+      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
+        <div class="card-header cardIconColors"><i class="fas fa-check"></i></div>
+        <div class="card-body">
+          <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
+          <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
+        </div>
+      </div>
+
+  </center>
+
     <!--- Scripts --->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

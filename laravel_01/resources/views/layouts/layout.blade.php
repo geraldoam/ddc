@@ -55,12 +55,13 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown">
+
+                                <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="navbarDropdown">
 
                                     <a class="dropdown-item" href="{{ route('home') }}">
                                         {{ __('Painel de Controle') }}
@@ -83,11 +84,18 @@
             </div>
         </nav>
 
+  <!-- FOOTER -->
+
         <main class="py-4">
             @yield('content')
         </main>
     </div>
 
+
+  <footer class="container footerPropriets">
+    <p class="float-right"><a href="#"></a></p>
+    <p>&copy; 2020 &middot; <a href="https://github.com/i386angel">GitHub</a> &middot; <a href="#">Termos</a></p>
+  </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

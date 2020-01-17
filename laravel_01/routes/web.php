@@ -1,13 +1,10 @@
 <?php
 
+
 Route::get('/', function () {
-    return view('site.home');
-})->name('site.home');
+    return view('index');
+});
 
-Route::get('/cursos', function () {
-    return view('site.courses');
-})->name('site.courses');
+Auth::routes();
 
-Route::get('/contato', function () {
-    return view('site.contact');
-})->name('site.contact');
+Route::get('/home', 'HomeController@index')->name('home');

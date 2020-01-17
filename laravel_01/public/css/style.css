@@ -28,7 +28,7 @@ navbarColorWhite:hover, .active{
 }
 
 .navbarSpaceButton{
-	margin-right: 5px;
+	margin: 5px;
 }
 
 
@@ -114,8 +114,4 @@ navbarColorWhite:hover, .active{
 	margin-top: 40px;
 	background-color: #393939;
 	color: #FFFFFF;
-}
-
-.panelContainerButtons{
-	width: 500px;
 }

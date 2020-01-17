@@ -19,7 +19,7 @@
         <i class="fas fa-lock fa-3x mediaIconSize"></i>
         <div class="media-body">
           <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Segurança</h5>
-          <h6 class="mt-2 mb-5 mediaColorText">Seus dados são protegidos com criptografia MD5.<h6>
+          <h6 class="mt-2 mb-5 mediaColorText">Seus dados são protegidos com criptografia.<h6>
       </li>
 
       <li class="media">
@@ -33,7 +33,7 @@
         <i class="fas fa-child fa-3x mediaIconSize"></i>
         <div class="media-body">
           <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Código Aberto</h5>
-          <h6 class="mt-2 mb-5 mediaColorText">Você que gosta de programação e tecnologia pode contribuir para o projeto, que é Open Source. Assim torna-o mais seguro e intuitivo.<h6>
+          <h6 class="mt-2 mb-5 mediaColorText">Você que gosta de programação e tecnologia pode contribuir para o projeto, que é Open Source, o tornando um site mais seguro e intuitivo.<h6>
       </li>
 
     </ul>

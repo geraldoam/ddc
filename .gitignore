@@ -16,6 +16,5 @@ Homestead.json
 .phpunit.result.cache
 /laravel-project/nbproject/private/
 
-.phpintel
 .phpintel/
 /.phpintel/

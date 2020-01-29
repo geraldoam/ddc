@@ -40,32 +40,58 @@
 
 
     <!--- Card --->
+    
+  <center class="container">
 
-  <center class="cardSettings">
+    <div class="row">
 
-      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
-        <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
-        <div class="card-body">
-          <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
-          <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: #4ea3bb" href="https://github.com/i386angel">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
+            <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: #4ea3bb">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
+            <a href="https://github.com/i386angel" class="btn btn-sm cardButtonColor">Contribuir</a>
+          </div>
         </div>
       </div>
 
-      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
-        <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
-        <div class="card-body">
-          <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
-          <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Além disso, ninguém gosta de carregar peso, não é mesmo?</p>
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
+            <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição.</p>
+            <a href="#" class="btn btn-sm cardButtonColor">Compartilhar</a>
+          </div>
         </div>
       </div>
 
-      <div class="card text-white mb-3 cardSettings cardColorSettings" style="max-width: 30rem;">
-        <div class="card-header cardIconColors"><i class="fas fa-check"></i></div>
-        <div class="card-body">
-          <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
-          <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
+
+
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header cardIconColors"><i class="fas fa-desktop"></i></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
+            <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
+            <a href="#" class="btn btn-sm cardButtonColor">Tecnologias</a>
+          </div>
         </div>
       </div>
+
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header cardIconColors"><i class="fas fa-th-large"></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
+            <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
+            <a href="#" class="btn btn-sm cardButtonColor">Tecnologias</a>
+          </div>
+        </div>
+      </div>
+
+    </div> 
 
   </center>
 

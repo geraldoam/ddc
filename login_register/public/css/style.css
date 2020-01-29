@@ -33,7 +33,7 @@ navbarColorWhite:hover, .active{
 
 
 .navbarButtonRegister{
-	background-color: #4ea3bb;
+	background-color: #18b844;
 	color: white;
 }
 
@@ -42,7 +42,7 @@ navbarColorWhite:hover, .active{
 /* Form Login e Registro*/
 
 .formIconWhite{
-	color: #FFFFFF;
+	color: white;
 }
 
 .formTextWhite{
@@ -67,7 +67,7 @@ navbarColorWhite:hover, .active{
 }
 
 .formFormatLogin{
-	margin-top: 100px;
+	margin-top: 80px;
 	width: 400px;
 	background-color: #393939;
 	padding: 30px;
@@ -75,7 +75,7 @@ navbarColorWhite:hover, .active{
 }
 
 .formFormatRegister{
-	margin-top: 100px;
+	margin-top: 40px;
 	width: 400px;
 	background-color: #393939;
 	padding: 30px;
@@ -101,7 +101,7 @@ navbarColorWhite:hover, .active{
 .mediaIconSize{
 	height: 64px;
 	width: 64px;
-	color: #4ea3bb;
+	color: #31eb64;
 }
 
 .mediaColorTitle{
@@ -140,7 +140,7 @@ navbarColorWhite:hover, .active{
 }
 
 .cardIconColors{
-	color: #4ea3bb;
+	color: #31eb64;
 }
 
 .cardTitleColor{
@@ -152,12 +152,20 @@ navbarColorWhite:hover, .active{
 	color: #CFC7C7;
 }
 
+.cardButtonColor{
+	background-color: #18b844;
+	color: white;
+}
+
 
 /* Footer */
 
 .footerPropriets{
 	color: white;
-	margin-top: 12%;
+	margin-top: 6%;
 
 }
 
+.footerButtonColors{
+	background-color: #7a7a7a;
+}

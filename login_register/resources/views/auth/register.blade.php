@@ -20,7 +20,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     
@@ -129,7 +129,7 @@
 
 
                     <div class="formButtonsFormat">
-                        <button type="submit" class="btn btn-primary">{{ __('Registrar') }}</button>
+                        <button type="submit" class="btn btn-secondary">{{ __('Registrar') }}</button>
                     </div>                  
 
 
@@ -144,9 +144,9 @@
     </div>
 
 
-  <footer class="container footerPropriets" style="margin-top: 8%">
+  <footer class="container footerPropriets">
     <p class="float-right"><a href="#"></a></p>
-    <p>&copy; 2020 &middot; <a href="https://github.com/i386angel" class="badge badge-primary">GitHub</a> &middot; <a href="#" class="badge badge-primary">Termos</a></p>
+    <p>&copy; 2020 &middot; <a href="https://github.com/i386angel" class="badge badge-primary footerButtonColors">GitHub</a> &middot; <a href="#" class="badge badge-primary footerButtonColors">Termos</a></p>
   </footer>
 
 

@@ -101,7 +101,7 @@ navbarColorWhite:hover, .active{
 .mediaIconSize{
 	height: 64px;
 	width: 64px;
-	color: #31eb64;
+	color: #5cc77e;
 }
 
 .mediaColorTitle{
@@ -140,7 +140,7 @@ navbarColorWhite:hover, .active{
 }
 
 .cardIconColors{
-	color: #31eb64;
+	color: #5cc77e;
 }
 
 .cardTitleColor{
@@ -153,8 +153,16 @@ navbarColorWhite:hover, .active{
 }
 
 .cardButtonColor{
-	background-color: #18b844;
+	background-color: #3b9959;
 	color: white;
+}
+
+#share-buttons img {
+width: 30px;
+padding: 5px;
+box-shadow: 0;
+display: inline;
+border-radius: 10px;
 }
 
 
@@ -169,3 +177,4 @@ navbarColorWhite:hover, .active{
 .footerButtonColors{
 	background-color: #7a7a7a;
 }
+

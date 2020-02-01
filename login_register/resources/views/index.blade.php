@@ -38,12 +38,11 @@
 
     </ul>
 
-
     <!--- Card --->
     
-  <center class="container">
+  <center>
 
-    <div class="row">
+    <div class="container row">
 
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
@@ -51,23 +50,27 @@
           <div class="card-body">
             <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
             <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: #4ea3bb">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
-            <a href="https://github.com/i386angel" class="btn btn-sm cardButtonColor">Contribuir</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/i386angel/laravel-projects" class="btn btn-sm cardButtonColor">Contribuir</a>
           </div>
         </div>
       </div>
 
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
-          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
+          <div class="card-header cardIconColors"><i class="fas fa-th-large"></i></div>
           <div class="card-body">
-            <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
-            <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição.</p>
-            <a href="#" class="btn btn-sm cardButtonColor">Compartilhar</a>
+            <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
+            <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
+            <a href="#" class="btn btn-sm cardButtonColor">Equipe</a>
           </div>
         </div>
       </div>
 
+    </div> 
 
+
+    <div class="container row">
+      
 
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
@@ -80,24 +83,35 @@
         </div>
       </div>
 
+
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
-          <div class="card-header cardIconColors"><i class="fas fa-th-large"></i></div>
+          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
           <div class="card-body">
-            <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
-            <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
-            <a href="#" class="btn btn-sm cardButtonColor">Tecnologias</a>
+            <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
+            <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Compartilhe!</p>
+
+            <a id="share-buttons" href="http://www.facebook.com/sharer.php?u=https://" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+            </a>
+
+            <a id="share-buttons" href="https://twitter.com/share?url=https://&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+            </a>
+
+
+            <a id="share-buttons" href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://">
+                <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+            </a>
           </div>
         </div>
       </div>
 
-    </div> 
+    </div>
+
+
 
   </center>
 
-    <!--- Scripts --->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/7afebb249a.js" crossorigin="anonymous"></script>
+
 @endsection

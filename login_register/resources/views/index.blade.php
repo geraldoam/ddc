@@ -50,7 +50,7 @@
           <div class="card-body">
             <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
             <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: #4ea3bb">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/i386angel/laravel-projects" class="btn btn-sm cardButtonColor">Contribuir</a>
+            <div class="button_cont" align="center"><button class="btn btn-sm example_e" href="add-website-here" target="_blank" rel="nofollow noopener">Contribuir</button></div>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           <div class="card-body">
             <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
             <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
-            <a href="#" class="btn btn-sm cardButtonColor">Equipe</a>
+            <div class="button_cont" align="center"><button class="btn btn-sm example_e" href="add-website-here" target="_blank" rel="nofollow noopener">Equipe</button></div>
           </div>
         </div>
       </div>
@@ -78,14 +78,8 @@
           <div class="card-body">
             <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
             <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
-
-            <a href="https://laravel.com">
-                <i class="fab fa-laravel fa-2x" style=""></i>
-            </a>
-
-            <a href="https://get.bootstrap.com">
-                <i class="fab fa-bootstrap fa-2x cardIconsShare"></i>
-            </a>            
+     
+            <div class="button_cont" align="center"><button class="btn btn-sm example_e" href="add-website-here" target="_blank" rel="nofollow noopener">Tecnologias</button></div>
 
           </div>
         </div>
@@ -99,18 +93,8 @@
             <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
             <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Compartilhe!</p>
 
-            <a href="http://www.facebook.com/sharer.php?u=https://" target="_blank">
-                <i class="fab fa-facebook-square fa-2x cardIconsShare"></i>
-            </a>
 
-            <a href="https://twitter.com/share?url=https://&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-                <i class="fab fa-twitter-square fa-2x cardIconsShare"></i>
-            </a>
-
-
-            <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://">
-                <i class="fas fa-envelope-square fa-2x cardIconsShare"></i>
-            </a>
+            <div class="button_cont" align="center"><button class="btn btn-sm example_e" href="add-website-here" target="_blank" rel="nofollow noopener">Compartilhar</button></div>
 
           </div>
         </div>

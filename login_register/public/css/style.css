@@ -157,12 +157,9 @@ navbarColorWhite:hover, .active{
 	color: white;
 }
 
-#share-buttons img {
-width: 30px;
-padding: 5px;
-box-shadow: 0;
-display: inline;
-border-radius: 10px;
+.cardIconsShare{
+	color: #18b844;
+	
 }
 
 

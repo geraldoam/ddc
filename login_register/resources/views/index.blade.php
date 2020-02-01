@@ -78,7 +78,15 @@
           <div class="card-body">
             <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
             <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
-            <a href="#" class="btn btn-sm cardButtonColor">Tecnologias</a>
+
+            <a href="https://laravel.com">
+                <i class="fab fa-laravel fa-2x" style=""></i>
+            </a>
+
+            <a href="https://get.bootstrap.com">
+                <i class="fab fa-bootstrap fa-2x cardIconsShare"></i>
+            </a>            
+
           </div>
         </div>
       </div>
@@ -91,18 +99,19 @@
             <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
             <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Compartilhe!</p>
 
-            <a id="share-buttons" href="http://www.facebook.com/sharer.php?u=https://" target="_blank">
-                <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+            <a href="http://www.facebook.com/sharer.php?u=https://" target="_blank">
+                <i class="fab fa-facebook-square fa-2x cardIconsShare"></i>
             </a>
 
-            <a id="share-buttons" href="https://twitter.com/share?url=https://&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-                <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+            <a href="https://twitter.com/share?url=https://&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                <i class="fab fa-twitter-square fa-2x cardIconsShare"></i>
             </a>
 
 
-            <a id="share-buttons" href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://">
-                <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+            <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://">
+                <i class="fas fa-envelope-square fa-2x cardIconsShare"></i>
             </a>
+
           </div>
         </div>
       </div>

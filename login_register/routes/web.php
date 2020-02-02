@@ -9,6 +9,6 @@ Auth::routes();
 
 Route::get('/painel', 'HomeController@index')->name('student.painel');
 
-Route::get('/share', 'HomeController@index')->name('info.share');
-Route::get('/team', 'HomeController@team')->name('info.team');
-Route::get('/technologies', 'HomeController@index')->name('info.technologies');
+Route::get('/share', 'InfoController@share')->name('info.share');
+Route::get('/team', 'InfoController@team')->name('info.team');
+Route::get('/technologies', 'InfoController@technologies')->name('info.technologies');

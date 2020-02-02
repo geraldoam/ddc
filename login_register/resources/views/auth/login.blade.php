@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
 <head>
     
     <meta charset="utf-8">
@@ -8,10 +8,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }} - Entrar</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://kit.fontawesome.com/7afebb249a.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
@@ -22,7 +21,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
     
 </head>
 <body>
@@ -131,7 +130,7 @@
                     </div>  
 
                     <div class="formButtonsFormat">
-                        <button type="submit" class="btn btn-secondary">{{ __('Entrar') }}</button>
+                        <button type="submit" class="btn btn-secondary" disabled>{{ __('Entrar') }}</button>
                     </div>                  
     <!--
 

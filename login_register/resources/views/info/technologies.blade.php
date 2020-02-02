@@ -150,7 +150,7 @@
             <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
             <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
             <div class="button_cont" align="center">
-              <a class="btn btn-sm example_e" href="{{ route('info.team') }}"  rel="nofollow noopener">Equipe</a>
+              <a class="btn btn-sm example_e" href="{{ route('info.team') }}" target="_blank" rel="nofollow noopener">Equipe</a>
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@
             <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
             <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
      
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.technologies') }}"  rel="nofollow noopener">Tecnologias</a></div>
+            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.technologies') }}" target="_blank" rel="nofollow noopener">Tecnologias</a></div>
 
           </div>
         </div>
@@ -184,7 +184,7 @@
             <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Compartilhe!</p>
 
 
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.share') }}"  rel="nofollow noopener">Compartilhar</a></div>
+            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.share') }}" target="_blank" rel="nofollow noopener">Compartilhar</a></div>
 
           </div>
         </div>

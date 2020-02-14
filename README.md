@@ -1,4 +1,4 @@
-https://img.shields.io/badge/<STATUS>-<Desenvolvimento>-<green>
+![alt text](https://img.shields.io/badge/<STATUS>-<Desenvolvimento>-<green>)
 
 ___
 

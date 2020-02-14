@@ -1,9 +1,9 @@
 ![Build Status](https://img.shields.io/badge/status-desenvolvimento-sucess)
 ___
 
-## Laravel Web Project
+## D.D.C.
 
-### Utilizando o framework Laravel para aprendizado e confecção de projetos.
+### Utilizando o framework Laravel para confecção de um website.
 
 ___
 
@@ -11,7 +11,7 @@ ___
 
 > #### Tecnologias que estão sendo usadas no projeto.
 >
-> - Laravel (PHP)
+> - Laravel
 > - Bootstrap
 > - MariaDB
 
@@ -21,8 +21,7 @@ ___
 
 <br>
 
-| Projeto | Descrição |
-| ----------- | ----------- |
-| Login | Register | Projeto simples ao qual realiza login e registro no banco de dados. Com front-end embutido. |
-| Teachers | Além de aderir o front-end do projeto de autenticação Login / Registro, ele conta com divisão entre usuários comuns e professores. | 
-| ... | .... | 
+| Descrição |
+| ----------- |
+| Projeto dedicado a um site escolar com intuito de informar e propagar serviços da instituição. |
+| Aderindo reponsividade e rapidez por não utilizar CMS, o projeto tende a atender o seu público de forma coerente. | 

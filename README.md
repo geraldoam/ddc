@@ -1,17 +1,9 @@
-![Build Status](https://img.shields.io/badge/status-desenvolvimento-green)
+![Build Status](https://img.shields.io/badge/status-desenvolvimento-sucess)
 ___
 
 ## Laravel Web Project
 
 ### Utilizando o framework Laravel para aprendizado e confecção de projetos.
-
-___
-
-<br>
-
-> ###### Projeto em Desenvolvimento!
-
-<br>
 
 ___
 

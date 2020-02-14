@@ -6,6 +6,14 @@ ___
 
 <br>
 
+###### Em Desenvolvimento!
+
+<br>
+
+___
+
+<br>
+
 > #### Tecnologias que estão sendo usadas no projeto.
 >
 > - Laravel (PHP)
@@ -20,6 +28,6 @@ ___
 
 | Projeto | Descrição |
 | ----------- | ----------- |
-| Login / Registro | Projeto simples ao qual realiza login e registro no banco de dados. Com front-end embutido. |
-| Teachers | Além de aderir o front-end do projeto de autenticação Login / Registro, ele contará com divisão entre usuários comuns e professores. | 
+| Login | Register | Projeto simples ao qual realiza login e registro no banco de dados. Com front-end embutido. |
+| Teachers | Além de aderir o front-end do projeto de autenticação Login / Registro, ele conta com divisão entre usuários comuns e professores. | 
 | ... | .... | 

@@ -1,5 +1,4 @@
-![alt text](https://img.shields.io/badge/<STATUS>-<Desenvolvimento>-<green>)
-
+![Build Status](https://img.shields.io/badge/status-desenvolvimento-green)
 ___
 
 ## Laravel Web Project

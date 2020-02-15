@@ -193,8 +193,8 @@
         <div class="card cardSettings cardColorSettings">
           <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
           <div class="card-body">
-            <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
-            <p class="card-text cardTextColor">O site possui o código aberto para que você possa programar também.</p>
+            <h5 class="card-title cardTitleColor">Sabe programação?</h5>
+            <p class="card-text cardTextColor">O site possui o código aberto para que você possa contribuir.</p>
             <div class="button_cont" align="center">
               <a class="btn btn-sm example_e" href="https://github.com/i386angel/ddc" target="_blank" rel="nofollow noopener">Código</a>
             </div>

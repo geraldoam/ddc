@@ -39,15 +39,15 @@ navbarColorWhite:hover, .active{
 
 .navLink{
 	color: white;
-	width: 120px;
-	margin-left: 20px;
+	width: 140px;
 }
 
 .navLink:hover {
 color: #323131 !important;
 font-weight: 700 !important;
 background: #c1bdbc;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+border-radius: 4px;
+-webkit-box-shadow: 20px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
 }

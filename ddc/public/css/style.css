@@ -37,6 +37,20 @@ navbarColorWhite:hover, .active{
 	color: white;
 }
 
+.navLink{
+	color: white;
+	width: 120px;
+	margin-left: 20px;
+}
+
+.navLink:hover {
+color: #323131 !important;
+font-weight: 700 !important;
+background: #c1bdbc;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
 
 
 /* Form Login e Registro*/
@@ -98,6 +112,7 @@ navbarColorWhite:hover, .active{
 
 /* Media Object */
 
+
 .mediaIconSize{
 	height: 64px;
 	width: 64px;
@@ -111,7 +126,6 @@ navbarColorWhite:hover, .active{
 .mediaColorText{
 	color: #CFC7C7;
 }
-
 
 
 /* Panel Control */
@@ -174,9 +188,9 @@ width: 120px;
 }
 
 .example_e:hover {
-color: #ffffff !important;
+color: #323131 !important;
 font-weight: 700 !important;
-background: none;
+background: #c1bdbc;
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;

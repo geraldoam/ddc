@@ -31,6 +31,7 @@
         <nav class="navbar navbar-expand-md navbar-dark navbarColor shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    <i class="fas fa-graduation-cap"></i> &nbsp | &nbsp
                     {{ config('app.name', 'Lesson Sesson') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -49,7 +50,7 @@
                         @guest
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="btn navbarButtonRegister" href="{{ route('register') }}">{{ __('Registrar') }}</a>
+                                    <a class="btn btn-info" style="color: white" href="{{ url('/') }}">{{ __('Voltar') }}</a>
                                 </li>
                             @endif
                         @else

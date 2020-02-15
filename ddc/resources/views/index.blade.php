@@ -29,6 +29,7 @@
         <nav class="navbar navbar-expand-md navbar-dark navbarColor shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    <i class="fas fa-graduation-cap"></i> &nbsp | &nbsp
                     {{ config('app.name', 'Lesson Sesson') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -45,14 +46,23 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
-                                <a class="btn btn-secondary navbarSpaceButton" href="{{ route('login') }}" >{{ __('Entrar') }}</a>
-                            </li>
-                            @if (Route::has('register'))
+                              <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="btn navbarSpaceButton navbarButtonRegister" href="{{ route('register') }}">{{ __('Registrar') }}</a>
+                                  <a class="nav-link navLink" href="#">Curso Técnico</a>
                                 </li>
-                            @endif
+                                <li class="nav-item">
+                                  <a class="nav-link navLink" href="#">Ensino Regular</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link navLink" href="#">Professores</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link navLink" href="#">Exercícios</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link navLink" href="#">Contato</a>
+                                </li>                                    
+                              </ul>                        
                         @else
 
                                 <li class="nav-item dropdown">
@@ -89,21 +99,21 @@
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid jumbotronStyle">
       <div class="container">
-        <h1 class="display-2">Lesson Session</h1>
-        <p class="display-5 lead jumbotronGray text-roboto">Para professores e alunos</p>
+        <h1 class="display-2">{{ config('app.name', 'app.name') }}</h1>
+        <p class="display-5 lead jumbotronGray text-roboto">Mesclando tecnologia aos estudos.</p>
       </div>
     </div>
 
 
+<!--- Media Objects -->
 
-    <!--- Media Objects --->
     <ul class="list-unstyled container">
 
       <li class="media">
-        <i class="fas fa-lock fa-3x mediaIconSize"></i>
+        <i class="fas fa-random fa-3x mediaIconSize"></i>
         <div class="media-body">
-          <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Segurança</h5>
-          <h6 class="mt-2 mb-5 mediaColorText">Seus dados são protegidos com criptografia.<h6>
+          <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Migração</h5>
+          <h6 class="mt-2 mb-5 mediaColorText">Diversos projetos da escola estão nesse site. Além das informações básicas da instituição.<h6>
       </li>
 
       <li class="media">
@@ -124,33 +134,69 @@
 
 
 
+
     <!--- Card --->
     
   <center>
+
+
+    <div class="container row">
+      
+
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header cardIconColors"><i class="fas fa-address-card"></i></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Quero ver minhas notas!</h5>
+            <p class="card-text cardTextColor">Clique no botão abaixo e seja direcionado ao boletim escolar do seges.</p>
+     
+            <div class="button_cont" align="center"><a class="btn btn-sm example_e" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces"  rel="nofollow noopener">Boletim</a></div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6">
+        <div class="card cardSettings cardColorSettings">
+          <div class="card-header cardIconColors"><i class="fas fa-question"></i></div>
+          <div class="card-body">
+            <h5 class="card-title cardTitleColor">Alguma dúvida?</h5>
+            <p class="card-text cardTextColor">Entre na nossa aba de contato e perguntas frequentes.</p>
+            <div class="button_cont" align="center">
+              <a class="btn btn-sm example_e" href="{{ route('info.team') }}"  rel="nofollow noopener">Contato</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
 
     <div class="container row">
 
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
-          <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
+          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
           <div class="card-body">
-            <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
-            <p class="card-text cardTextColor">É fácil, o nosso site possui o <a style="color: #4ea3bb">código aberto</a>, para que você possa contribuir e saber o que acontece nos bastidores.</p>
-            <div class="button_cont" align="center">
-              <a class="btn btn-sm example_e" href="https://github.com/i386angel/laravel-projects" target="_blank" rel="nofollow noopener">Contribuir</a>
-            </div>
+            <h5 class="card-title cardTitleColor">Conheça nosso time de professores.</h5>
+            <p class="card-text cardTextColor">Saiba os professores da instituição. Não só isso, exercícios e influência.</p>
+
+
+            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.share') }}"  rel="nofollow noopener">Professores</a></div>
+
           </div>
         </div>
       </div>
 
       <div class="col-sm-6">
         <div class="card cardSettings cardColorSettings">
-          <div class="card-header cardIconColors"><i class="fas fa-th-large"></i></div>
+          <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
           <div class="card-body">
-            <h5 class="card-title cardTitleColor">Fácil e Rápido!</h5>
-            <p class="card-text cardTextColor">A arquitetura do site foi elaborada para atender melhor o público jovem, com tendências minimalistas.</p>
+            <h5 class="card-title cardTitleColor">Sabe programação e quer contribuir?</h5>
+            <p class="card-text cardTextColor">O site possui o código aberto para que você possa programar também.</p>
             <div class="button_cont" align="center">
-              <a class="btn btn-sm example_e" href="{{ route('info.team') }}"  rel="nofollow noopener">Equipe</a>
+              <a class="btn btn-sm example_e" href="https://github.com/i386angel/ddc" target="_blank" rel="nofollow noopener">Código</a>
             </div>
           </div>
         </div>
@@ -159,38 +205,7 @@
     </div> 
 
 
-    <div class="container row">
-      
 
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header cardIconColors"><i class="fas fa-desktop"></i></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Tecnologias atualizadas!</h5>
-            <p class="card-text cardTextColor">O site Lesson Session utiliza tecnologias atualizadas, ou seja, nós visamos em segurança e qualidade.</p>
-     
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.technologies') }}"  rel="nofollow noopener">Tecnologias</a></div>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Chega de carregar peso!</h5>
-            <p class="card-text cardTextColor">Convide seu professor ou diretor para utilizar o site, fazendo assim com que diminua os gastos em sua instituição. Compartilhe!</p>
-
-
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.share') }}"  rel="nofollow noopener">Compartilhar</a></div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
 
   </center>
 

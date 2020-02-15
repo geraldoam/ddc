@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('Lesson Session', 'Lesson Session'),
+    'name' => env('Dom Daniel Comboni', 'Dom Daniel Comboni'),
 
     /*
     |--------------------------------------------------------------------------

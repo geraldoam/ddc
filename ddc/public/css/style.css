@@ -146,7 +146,7 @@ transition: all 0.3s ease 0s;
 /* Card */
 
 .cardSettings{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .cardColorSettings{
@@ -154,7 +154,7 @@ transition: all 0.3s ease 0s;
 }
 
 .cardIconColors{
-	color: #5cc77e;
+	color: #71f271;
 }
 
 .cardTitleColor{
@@ -166,19 +166,15 @@ transition: all 0.3s ease 0s;
 	color: #CFC7C7;
 }
 
-.cardButtonColor{
-	background-color: #3b9959;
-	color: #333333;
-}
 
 .cardIconsShare{
 	color: #18b844;
 }
 
-.example_e {
+.cardButtonColor {
 border: none;
-background: #3b9959;
-color: #ffffff !important;
+background: #47AE5E;
+color: white !important;
 font-weight: 2;
 padding: 8px;
 border-radius: 8px;
@@ -187,10 +183,10 @@ transition: all 0.3s ease 0s;
 width: 120px;
 }
 
-.example_e:hover {
-color: #323131 !important;
+.cardButtonColor:hover {
+color: black !important;
 font-weight: 700 !important;
-background: #c1bdbc;
+background: gray;
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
@@ -203,7 +199,6 @@ transition: all 0.3s ease 0s;
 .footerPropriets{
 	color: white;
 	margin-top: 6%;
-
 }
 
 .footerButtonColors{

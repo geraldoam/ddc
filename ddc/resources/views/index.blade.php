@@ -48,19 +48,19 @@
                         @guest
                               <ul class="navbar-nav">
                                 <li class="nav-item">
-                                  <a class="nav-link navLink" href="#">Curso Técnico</a>
+                                  <a class="nav-link navLink" href="{{ route('info.curso-tecnico') }}">Curso Técnico</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link navLink" href="#">Ensino Regular</a>
+                                  <a class="nav-link navLink" href="{{ route('info.ensino-regular') }}">Ensino Regular</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link navLink" href="#">Professores</a>
+                                  <a class="nav-link navLink" href="{{ route('info.professores') }}">Professores</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link navLink" href="#">Exercícios</a>
+                                  <a class="nav-link navLink" href="{{ route('info.exercicios') }}">Exercícios</a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link navLink" href="#">Contato</a>
+                                  <a class="nav-link navLink" href="{{ route('info.contato') }}">Contato</a>
                                 </li>                                    
                               </ul>                        
                         @else
@@ -133,82 +133,69 @@
     </ul>
 
 
+    <!--- Card -->
 
+<div class="container" align="center" style="width: 50%">
 
-    <!--- Card --->
+<div class="card text-center cardSettings cardColorSettings">
+  <div class="card-header cardIconColors"><i class="fas fa-address-card fa-2x"></i></i></div>
+  <div class="card-body">
+    <h5 class="card-title cardTitleColor">Quero ver minhas notas!</h5>
+    <p class="card-text cardTextColor">Clique no botão abaixo e seja rapidamente direcionado ao boletim escolar, ao qual pertence ao SEGES.</p>
+
+    <a type="button" class="btn cardButtonColor" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces">Boletim</a>
+
+  </div>
+  <div class="card-footer text-muted">
     
-  <center>
+  </div>
+</div>
 
-
-    <div class="container row">
-      
-
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header cardIconColors"><i class="fas fa-address-card"></i></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Quero ver minhas notas!</h5>
-            <p class="card-text cardTextColor">Clique no botão abaixo e seja direcionado ao boletim escolar do seges.</p>
-     
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces"  rel="nofollow noopener">Boletim</a></div>
-
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header cardIconColors"><i class="fas fa-question"></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Alguma dúvida?</h5>
-            <p class="card-text cardTextColor">Entre na nossa aba de contato e perguntas frequentes.</p>
-            <div class="button_cont" align="center">
-              <a class="btn btn-sm example_e" href="{{ route('info.team') }}"  rel="nofollow noopener">Contato</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
+<div class="card text-center cardSettings cardColorSettings">
+  <div class="card-header cardIconColors"><i class="fas fa-question fa-2x"></i></div>
+  <div class="card-body">
+    <h5 class="card-title cardTitleColor">Precisa de ajuda?</h5>
+    <p class="card-text cardTextColor">Dúvida sobre matrícula, como entrar em contato e outros. </p>
+    <div class="button_cont" align="center">
+      <a class="btn cardButtonColor" href="{{ route('info.contato') }}"  rel="nofollow noopener">Contato</a>
     </div>
+  </div>
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
+
+<div class="card text-center cardSettings cardColorSettings">
+  <div class="card-header"><i class="fas fa-graduation-cap cardIconColors fa-2x"></i></div>
+  <div class="card-body">
+    <h5 class="card-title cardTitleColor">Conheça a equipe!</h5>
+    <p class="card-text cardTextColor">Não deixe de conferir e acompanhar os professores e profissionais da instituição.</p>
 
 
-    <div class="container row">
+    <div class="button_cont" align="center"><a class="btn cardButtonColor" href="{{ route('info.professores') }}"  rel="nofollow noopener">Professores</a></div>
+  </div>
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
 
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header"><i class="fas fa-graduation-cap cardIconColors"></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Conheça nosso time de professores.</h5>
-            <p class="card-text cardTextColor">Saiba os professores da instituição. Não só isso, exercícios e influência.</p>
-
-
-            <div class="button_cont" align="center"><a class="btn btn-sm example_e" href="{{ route('info.share') }}"  rel="nofollow noopener">Professores</a></div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card cardSettings cardColorSettings">
-          <div class="card-header"><i class="fas fa-code cardIconColors"></i></div>
-          <div class="card-body">
-            <h5 class="card-title cardTitleColor">Sabe programação?</h5>
-            <p class="card-text cardTextColor">O site possui o código aberto para que você possa contribuir.</p>
-            <div class="button_cont" align="center">
-              <a class="btn btn-sm example_e" href="https://github.com/i386angel/ddc" target="_blank" rel="nofollow noopener">Código</a>
+<div class="card text-center cardSettings cardColorSettings">
+  <div class="card-header"><i class="fas fa-code cardIconColors fa-2x"></i></div>
+  <div class="card-body">
+    <h5 class="card-title cardTitleColor">Amante de Tecnologia?</h5>
+    <p class="card-text cardTextColor">Se você possui afinidade com a área de programação e queira contribuir com seu código é só clicar no botão abaixo!</p>
+    <div class="button_cont" align="center">
+              <a class="btn cardButtonColor" href="https://github.com/i386angel/ddc" target="_blank" rel="nofollow noopener">Código</a>
             </div>
-          </div>
-        </div>
-      </div>
+  </div>
+  <div class="card-footer text-muted">
+    
+  </div>
+</div>
 
-    </div> 
+</div>
 
-
-
-
-  </center>
-
+    <!--- Footer -->
 
   <footer class="container footerPropriets">
     <p class="float-right"><a href="#"></a></p>

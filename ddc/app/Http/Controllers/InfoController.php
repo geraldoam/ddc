@@ -7,6 +7,39 @@ use Illuminate\Http\Request;
 
 class InfoController extends Controller
 {
+
+
+    // Links redirect
+
+
+    public function cursotecnico()
+    {
+        return view('info.curso-tecnico');
+    }
+
+    public function ensinoregular()
+    {
+        return view('info.ensino-regular');
+    }
+
+    public function professores()
+    {
+        return view('info.professores');
+    }
+
+    public function exercicios()
+    {
+        return view('info.exercicios');
+    }
+
+    public function contato()
+    {
+        return view('info.contato');
+    }
+
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -81,21 +114,6 @@ class InfoController extends Controller
     public function destroy(Info $info)
     {
         //
-    }
-
-    public function team()
-    {
-        return view('info.team');
-    }
-
-    public function share()
-    {
-        return view('info.share');
-    }
-
-    public function technologies()
-    {
-        return view('info.technologies');
     }
 
 }

@@ -37,8 +37,15 @@ class InfoController extends Controller
         return view('info.contato');
     }
 
+    public function teste()
+    {
+        return view('layout.layout');
+    }
 
-
+    public function teste2()
+    {
+        return view('layout.layout2');
+    }
 
     /**
      * Display a listing of the resource.

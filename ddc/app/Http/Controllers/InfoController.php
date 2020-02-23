@@ -12,14 +12,9 @@ class InfoController extends Controller
     // Links redirect
 
 
-    public function cursotecnico()
+    public function cursos()
     {
-        return view('info.curso-tecnico');
-    }
-
-    public function ensinoregular()
-    {
-        return view('info.ensino-regular');
+        return view('info.cursos');
     }
 
     public function professores()
@@ -37,15 +32,6 @@ class InfoController extends Controller
         return view('info.contato');
     }
 
-    public function teste()
-    {
-        return view('layout.layout');
-    }
-
-    public function teste2()
-    {
-        return view('layout.layout2');
-    }
 
     /**
      * Display a listing of the resource.

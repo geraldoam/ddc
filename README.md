@@ -20,8 +20,3 @@ ___
 ___
 
 <br>
-
-| Descrição |
-| ----------- |
-| Projeto dedicado a um site escolar com intuito de informar e propagar serviços da instituição. |
-| Aderindo reponsividade e rapidez por não utilizar CMS, o projeto tende a atender o seu público de forma coerente. | 

@@ -7,97 +7,114 @@
 
 
 <!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid jumbotronStyle">
+<div class="jumbotron jumbotron-fluid" style="margin-top: 50px">
   <div class="container">
-    <h1 class="display-2">{{ config('app.name', 'app.name') }}</h1>
-    <p class="display-5 lead jumbotronGray text-roboto">Mesclando tecnologia aos estudos.</p>
+    <h1 class="display-3">{{ config('app.name', 'app.name') }}</h1>
+    <p class="display-5 lead text-roboto text-muted">Mesclando tecnologia aos estudos.</p>
   </div>
 </div>
 
 
-<!--- Media Objects -->
-
-<ul class="list-unstyled container">
-
-  <li class="media">
-    <i class="fas fa-random fa-3x mediaIconSize"></i>
-    <div class="media-body">
-      <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Migração</h5>
-      <h6 class="mt-2 mb-5 mediaColorText">Diversos projetos da escola estão nesse site. Além das informações básicas da instituição.<h6>
-  </li>
-
-  <li class="media">
-    <i class="fas fa-book fa-3x mediaIconSize"></i>
-    <div class="media-body">
-      <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Educação</h5>
-      <h6 class="mt-2 mb-5 mediaColorText">Banco de questões online ao qual evita o gasto com papel e maior implementação da tecnologia na instituição.<h6>
-  </li>
-
-  <li class="media">
-    <i class="fas fa-child fa-3x mediaIconSize"></i>
-    <div class="media-body">
-      <h5 class="mt-0 mb-1 mediaColorTitle fontRaleway">Código Aberto</h5>
-      <h6 class="mt-2 mb-5 mediaColorText">Você que gosta de programação e tecnologia pode contribuir para o projeto, que é Open Source, o tornando um site mais seguro e intuitivo.<h6>
-  </li>
-
-</ul>
+<hr class="featurette-divider">
 
 
+<!--- Media Objects --->
+<div class="container">
+    <div class="row">
 
-<!--- Card -->
+      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
+        <i class="fas fa-random fa-5x mediaIconColor m-xl-3"></i>
+        <h2 style="margin-top: 10px">Migração</h2>
+        <p class="text-muted">Diversos projetos da escola estão nesse site. Além das informações básicas da instituição.</p>
+      </div>
 
-<div class="container" align="center">
+      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
+        <i class="fas fa-book fa-5x mediaIconColor m-xl-3"></i>
+        <h2 style="margin-top: 10px">Educação</h2>
+        <p class="text-muted">Banco de questões online ao qual evita uso do papel e incentiva o uso da tecnologia.</p>
+      </div>
 
-  <div class="card text-center cardSettings cardColorSettings">
-    <div class="card-header cardIconColors"><i class="fas fa-address-card fa-2x"></i></i></div>
-    <div class="card-body">
-      <h5 class="card-title cardTitleColor">Quero ver minhas notas!</h5>
-      <p class="card-text cardTextColor">Clique no botão abaixo e seja rapidamente direcionado ao boletim escolar, ao qual pertence ao SEGES.</p>
-      <a type="button" class="btn cardButtonColor" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces">Boletim</a>
-    </div>
-    <div class="card-footer text-muted">
+
+      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
+        <i class="fas fa-code fa-5x mediaIconColor m-xl-3"></i>
+        <h2 style="margin-top: 10px">Tecnologia</h2>
+        <p class="text-muted">Você pode participar do projeto, contribuindo com seu código em nosso GitHub.</p>
+      </div>
+
     </div>
   </div>
 
-  <div class="card text-center cardSettings cardColorSettings">
-    <div class="card-header cardIconColors"><i class="fas fa-question fa-2x"></i></div>
-    <div class="card-body">
-      <h5 class="card-title cardTitleColor">Precisa de ajuda?</h5>
-      <p class="card-text cardTextColor">Dúvida sobre matrícula, como entrar em contato e outros. </p>
-      <div class="button_cont" align="center">
-        <a class="btn cardButtonColor" href="{{ route('info.contato') }}"  rel="nofollow noopener">Contato</a>
+<!--- Card --->
+<div class="container">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Quero olhar minhas notas.</span></h2>
+        <p class="lead text-muted">Clique no botão e seja rapidamente direcionado ao sistema de boletim escolar fornecido pelo SEGES.</p>
+      </div>
+      <div class="col-md-5">
+        <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces" style="margin-top: 10%; margin-bottom: 3%">Boletim</a>
       </div>
     </div>
-    <div class="card-footer text-muted">
-    </div>
-  </div>
+    
+    <hr class="featurette-divider">
 
-  <div class="card text-center cardSettings cardColorSettings">
-    <div class="card-header"><i class="fas fa-graduation-cap cardIconColors fa-2x"></i></div>
-    <div class="card-body">
-      <h5 class="card-title cardTitleColor">Conheça a equipe!</h5>
-      <p class="card-text cardTextColor">Não deixe de conferir e acompanhar os professores e profissionais da instituição.</p>
-      <div class="button_cont" align="center"><a class="btn cardButtonColor" href="{{ route('info.professores') }}"  rel="nofollow noopener">Professores</a></div>
-    </div>
-    <div class="card-footer text-muted"> 
-    </div>
-  </div>
 
-  <div class="card text-center cardSettings cardColorSettings">
-    <div class="card-header"><i class="fas fa-code cardIconColors fa-2x"></i></div>
-    <div class="card-body">
-      <h5 class="card-title cardTitleColor">Amante de Tecnologia?</h5>
-      <p class="card-text cardTextColor">Se você possui afinidade com a área de programação e queira contribuir com seu código é só clicar no botão abaixo!</p>
-      <div class="button_cont" align="center">
-        <a class="btn cardButtonColor" href="https://github.com/i386angel/ddc" target="_blank" rel="nofollow noopener">Código</a>
+    <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Precisa de ajuda?</span></h2>
+        <p class="lead text-muted">Você pode entrar na nossa aba de contato e saber mais sobre.</p>
+      </div>
+      <div class="col-md-5">
+        <button class="btn btn-primary text-white btn-lg btn-block" style="margin-top: 10%; margin-bottom: 3%">Contato</button>
       </div>
     </div>
-    <div class="card-footer text-muted">
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Conheça a equipe!</span></h2>
+        <p class="lead text-muted">Está a procura dos atuais professores da escola? É só clicar no botão que você irá para a página do professor.</p>
+      </div>
+      <div class="col-md-5">
+        <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.professores') }}" style="margin-top: 10%; margin-bottom: 3%">Professores</a>
+      </div>
     </div>
-  </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Você possui conhecimento Computacional?</span></h2>
+        <p class="lead text-muted">Entre no nosso GitHub e contribua com seu código, tornando o site melhor e mais seguro.</p>
+      </div>
+      <div class="col-md-5">
+        <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://github.com/i386angel/ddc" style="margin-top: 10%; margin-bottom: 3%">Código</a>
+      </div>
+    </div>
 
 </div>
 
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
 
 
 <!--- Section Finish --->

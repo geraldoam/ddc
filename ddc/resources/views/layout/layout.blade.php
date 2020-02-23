@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
       <!--- API -->
@@ -27,14 +28,13 @@
 
 
 	<!-- Navbar --->
-	<nav class="navbar navbar-expand-md navbar-dark navbarColor shadow-sm">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark text-white shadow-sm">
 	    <div class="container">
 	        <a class="navbar-brand" href="{{ url('/') }}">
-	            <i class="fas fa-graduation-cap"></i> &nbsp | &nbsp
 	            {{ config('app.name', 'Lesson Sesson') }}
 	        </a>
-	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-	            <span class="navbar-toggler-icon"></span>
+	        <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+	            <i class="text-white fas fa-ellipsis-h fa-2x"></i>
 	        </button>
 
 	        <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,10 +49,7 @@
 	                @guest
 	                      <ul class="navbar-nav">
 	                        <li class="nav-item">
-	                          <a class="nav-link navLink" href="{{ route('info.curso-tecnico') }}">Curso Técnico</a>
-	                        </li>
-	                        <li class="nav-item">
-	                          <a class="nav-link navLink" href="{{ route('info.ensino-regular') }}">Ensino Regular</a>
+	                          <a class="nav-link navLink" href="{{ route('info.cursos') }}">Cursos</a>
 	                        </li>
 	                        <li class="nav-item">
 	                          <a class="nav-link navLink" href="{{ route('info.professores') }}">Professores</a>
@@ -100,12 +97,13 @@
 	</div>
 
 
-  <!--- Footer -->
-  <footer class="container footerPropriets">
-    <p class="float-right"><a href="#"></a></p>
-    <p>&copy; 2020 &middot; <a href="https://github.com/i386angel" class="badge badge-primary footerButtonColors">GitHub</a> &middot; <a href="#" class="badge badge-primary footerButtonColors">Termos</a></p>
-  </footer>
-
+<!--- Footer -->
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container">
+    <p style="margin-top: 15px;" class="text-white-50">Dom Daniel Comboni. Feito por <a class="text-secondary" target="_blank" href="https://github.com/i386angel">Geraldo</a>.</p>
+    <p class="text-white-50" style="margin-top: -10px;">Todos os direitos reservados. Licença MIT.</p>
+  </div>
+</footer>
 
   <!--- Scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

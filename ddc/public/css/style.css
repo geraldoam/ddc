@@ -1,24 +1,19 @@
+/* Body */
 body{
 	margin: 0;
-	background-color: #625A5A;
+	background-color: #E9ECEF;
 }
 
-/* Fonts */
 
+
+/* Fonts */
 .fontRaleway{
 	font-family: 'Raleway', sans-serif;
 }
 
 
+
 /* Navbar */
-.navbarColor{
-	background-color: #333333;
-}
-
-.navbarColorWhite{
-	color: #FFFFFF;
-}
-
 navbarColorWhite:hover, .active{
 	color: gray;
 }
@@ -31,7 +26,6 @@ navbarColorWhite:hover, .active{
 	margin: 5px;
 }
 
-
 .navbarButtonRegister{
 	background-color: #18b844;
 	color: white;
@@ -39,12 +33,13 @@ navbarColorWhite:hover, .active{
 
 .navLink{
 	color: white;
-	width: 140px;
+	margin-right: 10px; 
+	margin-left: 10px;
 }
 
 .navLink:hover {
 color: #323131 !important;
-font-weight: 700 !important;
+font-weight: 500 !important;
 background: #c1bdbc;
 border-radius: 4px;
 -webkit-box-shadow: 20px 5px 40px -10px rgba(0,0,0,0.57);
@@ -53,8 +48,8 @@ transition: all 0.3s ease 0s;
 }
 
 
-/* Form Login e Registro*/
 
+/* Form Login e Registro*/
 .formIconWhite{
 	color: white;
 }
@@ -97,39 +92,17 @@ transition: all 0.3s ease 0s;
 }
 
 
-/* Jumbotron */
-
-.jumbotronStyle{
-	color: white;
-	background-color: #625A5A;
-}
-
-.jumbotronGray{
-	color: #CFC7C7;
-}
-
 
 
 /* Media Object */
 
-
-.mediaIconSize{
-	height: 64px;
-	width: 64px;
-	color: #5cc77e;
+.mediaIconColor{
+	color:  #4191c5;
 }
 
-.mediaColorTitle{
-	color: #FFFFFF;
-}
-
-.mediaColorText{
-	color: #CFC7C7;
-}
 
 
 /* Panel Control */
-
 .panelStyle{
 	margin-top: 40px;
 	background-color: #393939;
@@ -144,33 +117,6 @@ transition: all 0.3s ease 0s;
 
 
 /* Card */
-
-.cardSettings{
-	margin-top: 20px;
-}
-
-.cardColorSettings{
-	background-color: #333333;
-}
-
-.cardIconColors{
-	color: #71f271;
-}
-
-.cardTitleColor{
-	color: #FFFFFF;
-}
-
-
-.cardTextColor{
-	color: #CFC7C7;
-}
-
-
-.cardIconsShare{
-	color: #18b844;
-}
-
 .cardButtonColor {
 border: none;
 background: #47AE5E;
@@ -192,16 +138,4 @@ background: gray;
 transition: all 0.3s ease 0s;
 }
 
-
-
-/* Footer */
-
-.footerPropriets{
-	color: white;
-	margin-top: 6%;
-}
-
-.footerButtonColors{
-	background-color: #7a7a7a;
-}
 

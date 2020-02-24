@@ -15,7 +15,7 @@
 <div class="container">
   <i class="fas fa-user-graduate fa-5x"></i>
   <h1 style="margin-top: 20px">Cursos</h1>
-  <p class="lead text-muted">Role para baixo e conheça os cursos ofertados pela escola.</p>
+  <p class="lead text-muted">Role a página e conheça os cursos ofertados pela escola.</p>
   <p>
     <a href="/" class="btn btn-primary my-2">Início</a>
     <a href="{{ route('info.professores') }}" class="btn btn-secondary my-2">Professores</a>

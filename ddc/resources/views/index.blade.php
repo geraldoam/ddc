@@ -72,6 +72,21 @@
       </div>
     </div>
 
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Cursos que a escola oferece.</span></h2>
+        <p class="lead text-muted">Orientação para escolha de cursos e detalhes dos mesmos. Esta aba mostrará todos os cursos presentes na escola.</p>
+      </div>
+      <div class="col-md-5">
+        <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.cursos') }}" style="margin-top: 10%; margin-bottom: 3%">Cursos</a>
+      </div>
+    </div>
+
+
     <hr class="featurette-divider">
 
 

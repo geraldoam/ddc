@@ -8,7 +8,7 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center bg-transparent" style="margin-top: 40px">
+  <section class="jumbotron text-center bg-transparent" style="margin-top: 100px;margin-bottom: 100px">
     <div class="container">
       <i class="fas fa-chalkboard-teacher fa-5x"></i>
       <h1 style="margin-top: 20px">Professores</h1>
@@ -20,8 +20,14 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-transparent">
+
+
+
+
+  <div class="py-5 bg-transparent">
     <div class="container">
+
+      <hr class="featurette-divider">
 
       <div class="row">
 
@@ -76,6 +82,12 @@
           </div>
         </div>
 
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row">
+
         <div class="col-md-4">
           <div class="card mb-4 shadow-lg">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="43%" y="50%" fill="#eceeef" dy=".3em">Imagem</text></svg>
@@ -126,6 +138,12 @@
             </div>
           </div>
         </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row">
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-lg">
@@ -178,7 +196,10 @@
           </div>
         </div>
 
-    </div>
+      </div>
+
+       <hr class="featurette-divider">
+
   </div>
 
 </main>

@@ -33,7 +33,7 @@
 	        <a class="navbar-brand" href="{{ url('/') }}">
 	            {{ config('app.name', 'Lesson Sesson') }}
 	        </a>
-	        <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+	        <button class="navbar-toggler bg-transparent border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
 	            <i class="text-white fas fa-ellipsis-h fa-2x"></i>
 	        </button>
 

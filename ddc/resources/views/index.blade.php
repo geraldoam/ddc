@@ -22,21 +22,21 @@
 <div class="container">
     <div class="row">
 
-      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
-        <i class="fas fa-random fa-5x mediaIconColor m-xl-3"></i>
+      <div class="col-lg-4 p-lg-5">
+        <i class="fas fa-random fa-5x mediaIconColor ml-lg-2 p-2"></i>
         <h2 style="margin-top: 10px">Migração</h2>
         <p class="text-muted">Diversos projetos da escola estão nesse site. Além das informações básicas da instituição.</p>
       </div>
 
-      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
-        <i class="fas fa-book fa-5x mediaIconColor m-xl-3"></i>
+      <div class="col-lg-4 p-lg-5">
+        <i class="fas fa-book fa-5x mediaIconColor ml-lg-2 p-2"></i>
         <h2 style="margin-top: 10px">Educação</h2>
         <p class="text-muted">Banco de questões online ao qual evita uso do papel e incentiva o uso da tecnologia.</p>
       </div>
 
 
-      <div class="col-lg-4" style="margin-top:50px; margin-bottom: 50px;">
-        <i class="fas fa-code fa-5x mediaIconColor m-xl-3"></i>
+      <div class="col-lg-4 p-lg-5">
+        <i class="fas fa-code fa-5x mediaIconColor ml-lg-2 p-2"></i>
         <h2 style="margin-top: 10px">Tecnologia</h2>
         <p class="text-muted">Você pode participar do projeto, contribuindo com seu código em nosso GitHub.</p>
       </div>

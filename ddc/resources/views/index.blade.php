@@ -54,7 +54,7 @@
         <h2 class="featurette-heading">Quero olhar minhas notas.</span></h2>
         <p class="lead text-muted">Clique no botão e seja rapidamente direcionado ao sistema de boletim escolar fornecido pelo SEGES.</p>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3 ml-lg-5">
         <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces" style="margin-top: 10%; margin-bottom: 3%">Boletim</a>
       </div>
     </div>
@@ -67,7 +67,7 @@
         <h2 class="featurette-heading">Precisa de ajuda?</span></h2>
         <p class="lead text-muted">Você pode entrar na nossa aba de contato e saber mais sobre.</p>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3 ml-lg-5">
         <button class="btn btn-primary text-white btn-lg btn-block" style="margin-top: 10%; margin-bottom: 3%">Contato</button>
       </div>
     </div>
@@ -81,7 +81,7 @@
         <h2 class="featurette-heading">Cursos que a escola oferece.</span></h2>
         <p class="lead text-muted">Orientação para escolha de cursos e detalhes dos mesmos. Esta aba mostrará todos os cursos presentes na escola.</p>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3 ml-lg-5">
         <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.cursos') }}" style="margin-top: 10%; margin-bottom: 3%">Cursos</a>
       </div>
     </div>
@@ -95,7 +95,7 @@
         <h2 class="featurette-heading">Conheça a equipe!</span></h2>
         <p class="lead text-muted">Está a procura dos atuais professores da escola? É só clicar no botão que você irá para a página do professor.</p>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3 ml-lg-5">
         <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.professores') }}" style="margin-top: 10%; margin-bottom: 3%">Professores</a>
       </div>
     </div>
@@ -105,9 +105,9 @@
     <div class="row featurette" style="margin-top: 80px; margin-bottom: 80px">
       <div class="col-md-7">
         <h2 class="featurette-heading">Você possui conhecimento Computacional?</span></h2>
-        <p class="lead text-muted">Entre no nosso GitHub e contribua com seu código, tornando o site melhor e mais seguro.</p>
+        <p class="lead text-muted">Entre no nosso GitHub e contribua com seu código, tornando o site melhor e mais seguro.</p>        
       </div>
-      <div class="col-md-5">
+      <div class="col-md-3 ml-lg-5">
         <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://github.com/i386angel/ddc" style="margin-top: 10%; margin-bottom: 3%">Código</a>
       </div>
     </div>

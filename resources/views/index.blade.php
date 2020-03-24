@@ -55,7 +55,7 @@
         <p class="lead text-muted">Clique no botão e seja rapidamente direcionado ao sistema de boletim escolar fornecido pelo SEGES.</p>
       </div>
       <div class="col-md-3 ml-lg-5">
-        <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces" style="margin-top: 10%; margin-bottom: 3%">Boletim</a>
+        <a class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://segespais.caedufjf.net/seges/login.faces" style="margin-top: 10%; margin-bottom: 3%">Boletim</a>
       </div>
     </div>
     
@@ -82,7 +82,7 @@
         <p class="lead text-muted">Orientação para escolha de cursos e detalhes dos mesmos. Esta aba mostrará todos os cursos presentes na escola.</p>
       </div>
       <div class="col-md-3 ml-lg-5">
-        <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.cursos') }}" style="margin-top: 10%; margin-bottom: 3%">Cursos</a>
+        <a class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.cursos') }}" style="margin-top: 10%; margin-bottom: 3%">Cursos</a>
       </div>
     </div>
 
@@ -96,7 +96,7 @@
         <p class="lead text-muted">Está a procura dos atuais professores da escola? É só clicar no botão que você irá para a página do professor.</p>
       </div>
       <div class="col-md-3 ml-lg-5">
-        <a type="button" class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.professores') }}" style="margin-top: 10%; margin-bottom: 3%">Professores</a>
+        <a class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.professores') }}" style="margin-top: 10%; margin-bottom: 3%">Professores</a>
       </div>
     </div>
 
@@ -108,7 +108,7 @@
         <p class="lead text-muted">Entre no nosso GitHub e contribua com seu código, tornando o site melhor e mais seguro.</p>        
       </div>
       <div class="col-md-3 ml-lg-5">
-        <a type="button" class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://github.com/i386angel/ddc" style="margin-top: 10%; margin-bottom: 3%">Código</a>
+        <a class="btn btn-primary text-white btn-lg btn-block" target="_blank" href="https://github.com/i386angel/ddc" style="margin-top: 10%; margin-bottom: 3%">Código</a>
       </div>
     </div>
 

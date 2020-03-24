@@ -2,7 +2,6 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-bootstrap/compiled.php
 app/storage/
 public/storage
 public/hot

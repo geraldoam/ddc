@@ -23,20 +23,20 @@
     <div class="row">
 
       <div class="col-lg-4 p-lg-5">
-        <i class="fas fa-random fa-5x mediaIconColor ml-lg-2 p-2"></i>
+        <i class="fas fa-random fa-5x mediaIconColor ml-lg-2 p-2 mt-5"></i>
         <h2 style="margin-top: 10px">Migração</h2>
         <p class="text-muted">Diversos projetos da escola estão nesse site. Além das informações básicas da instituição.</p>
       </div>
 
       <div class="col-lg-4 p-lg-5">
-        <i class="fas fa-book fa-5x mediaIconColor ml-lg-2 p-2"></i>
+        <i class="fas fa-book fa-5x mediaIconColor ml-lg-2 p-2 mt-5"></i>
         <h2 style="margin-top: 10px">Educação</h2>
         <p class="text-muted">Banco de questões online ao qual evita uso do papel e incentiva o uso da tecnologia.</p>
       </div>
 
 
       <div class="col-lg-4 p-lg-5">
-        <i class="fas fa-code fa-5x mediaIconColor ml-lg-2 p-2"></i>
+        <i class="fas fa-code fa-5x mediaIconColor ml-lg-2 p-2 mt-3"></i>
         <h2 style="margin-top: 10px">Tecnologia</h2>
         <p class="text-muted">Você pode participar do projeto, contribuindo com seu código em nosso GitHub.</p>
       </div>
@@ -68,7 +68,7 @@
         <p class="lead text-muted">Você pode entrar na nossa aba de contato e saber mais sobre.</p>
       </div>
       <div class="col-md-3 ml-lg-5">
-        <button class="btn btn-primary text-white btn-lg btn-block" style="margin-top: 10%; margin-bottom: 3%">Contato</button>
+        <a class="btn btn-primary text-white btn-lg btn-block" href="{{ route('info.contato') }}" style="margin-top: 10%; margin-bottom: 3%">Contato</a>
       </div>
     </div>
 

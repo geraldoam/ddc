@@ -8,7 +8,7 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center bg-transparent" style="margin-top: 100px;margin-bottom: 100px">
+  <section class="jumbotron text-center bg-transparent" style="margin-top: 150px;margin-bottom: 240px">
     <div class="container">
       <i class="fas fa-chalkboard-teacher fa-5x"></i>
       <h1 style="margin-top: 20px">Professores</h1>

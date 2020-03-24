@@ -11,7 +11,7 @@
 
 
 <!-- Jumbotron -->
-<section class="jumbotron text-center bg-transparent" style="margin-top: 100px; margin-bottom: 100px">
+<section class="jumbotron text-center bg-transparent" style="margin-top: 150px; margin-bottom: 240px">
 <div class="container">
   <i class="fas fa-user-graduate fa-5x"></i>
   <h1 style="margin-top: 20px">Cursos</h1>

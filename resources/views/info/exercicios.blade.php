@@ -11,11 +11,11 @@
 
 <!--- Header --->
 <section>
-	<div class="jumbotron text-center bg-transparent" style="margin-top: 100px;margin-bottom: 100px">
+	<div class="jumbotron text-center bg-transparent" style="margin-top: 150px;margin-bottom: 240px">
 		<div class="container">
 		  <i class="fas fa-book fa-5x"></i>
 		  <h1 style="margin-top: 20px">Exercícios</h1>
-		  <p class="lead text-muted">Conheça abaixo os exercícios ofertados.</p>
+		  <p class="lead text-muted">Role a página e clique na matéria ao qual você deseja.</p>
 		  <p>
 		    <a href="/" class="btn btn-primary my-2">Início</a>
 		    <a href="#" class="btn btn-secondary my-2">Contato</a>

@@ -12,7 +12,7 @@
 
 <!--- Header --->
 <section>
-	<div class="jumbotron text-center bg-transparent" style="margin-top: 100px;margin-bottom: 100px">
+	<div class="jumbotron text-center bg-transparent" style="margin-top: 150px;margin-bottom: 240px">
 		<div class="container">
 		  <i class="fas fa-phone fa-5x"></i>
 		  <h1 style="margin-top: 20px">Contato</h1>

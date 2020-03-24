@@ -8,19 +8,19 @@
 
 <main role="main">
 
+
+
   <section class="jumbotron text-center bg-transparent" style="margin-top: 150px;margin-bottom: 240px">
     <div class="container">
       <i class="fas fa-chalkboard-teacher fa-5x"></i>
       <h1 style="margin-top: 20px">Professores</h1>
       <p class="lead text-muted">Conheça abaixo a nossa equipe de professores.</p>
       <p>
-        <a href="/" class="btn btn-primary my-2">Início</a>
-        <a href="#" class="btn btn-secondary my-2">Exercícios</a>
+        <a href="/" class="btn btn-primary my-2">Voltar ao início</a>
+        <a href="{{ route('info.exercicios') }}" class="btn btn-secondary my-2">Exercícios</a>
       </p>
     </div>
   </section>
-
-
 
 
 

@@ -18,7 +18,7 @@
 		  <h1 style="margin-top: 20px">Contato</h1>
 		  <p class="lead text-muted">Role a página, entre em contato.</p>
 		  <p>
-		    <a href="/" class="btn btn-primary my-2">Início</a>
+		    <a href="/" class="btn btn-secondary my-2">Voltar ao início</a>
 		  </p>
 		</div>
 	</div>

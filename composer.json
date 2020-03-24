@@ -1,0 +1,10 @@
+{
+    "name": "i386angel/ddc",
+    "authors": [
+        {
+            "name": "i386angel",
+            "email": "geraldoahnert@gmail.com"
+        }
+    ],
+    "require": {}
+}

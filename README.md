@@ -1,22 +1,44 @@
-![Build Status](https://img.shields.io/badge/status-desenvolvimento-sucess)
-___
+---
 
-## D.D.C.
+<p align="center">
+  <h1 align="center">D.D.C.</h1>
+  <h5 align="center">The school project</h5>
+  <hr>
+  <p align="center">
+    <a target="__blank" href="#">
+      <img src="https://img.shields.io/badge/status-em desenvolvimento-red?&style=for-the-badge"/>
+      <img src="https://img.shields.io/badge/licença-mit-blue?&style=for-the-badge"/>
+    </a>
+</p>
 
-### Utilizando o framework Laravel para confecção de um website.
-
-___
-
-<br>
-
-> #### Tecnologias que estão sendo usadas no projeto.
->
-> - Laravel
-> - Bootstrap
-> - MariaDB
+---
 
 <br>
 
-___
+<h4 align="center">O que é o projeto?</h4>
+
+<br>
+
+O projeto é utilizado em uma instituição de Ensino Médio.
+
+Este é um projeto feito em Laravel. Ou seja, você irá consumir um projeto feito em PHP.
+
+<br>
+
+---
+
+
+
+<br>
+
+---
+
+<br>
+
+<p align="center">Building...</p>
+
+<br>
+
+---
 
 <br>

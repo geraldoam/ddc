@@ -18,6 +18,7 @@
 <h4 align="center">O que é este projeto?</h4>
 
 <br>
+<br>
 
 Este projeto é destinado a minha instituição de Ensino Médio, ao qual havia necessidade de um site para diversas funções do contidiano.
 
@@ -26,7 +27,7 @@ Em um trabalho voluntário eu estou a realizar este projeto utilizando tecnologi
 O projeto tende a facilitar e informar o aluno.
 
 <br>
-
+<br>
 
 
 ---
@@ -36,32 +37,16 @@ O projeto tende a facilitar e informar o aluno.
 <h4 align="center">Quais tecnologias utilizadas?</h4>
 
 <br>
-
+<br>
 
 <p align="center">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" align="center" width="80px" height="80px">
 	<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" align="center" width="80px" height="80px">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Mariadb-seal-browntext.svg" align="center" width="190px" height="80px">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Mariadb-seal-browntext.svg" align="center" width="200px" height="80px">
 
 </p>
 
-
+<br>
 <br>
 
 ---
-
-
-
-<br>
-
----
-
-<br>
-
-<p align="center">Building...</p>
-
-<br>
-
----
-
-<br>

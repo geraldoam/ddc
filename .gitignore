@@ -129,4 +129,8 @@ temp/
 # End of https://www.gitignore.io/api/node,laravel
 package-lock.json
 
+# Js file
 public/js/
+
+# Procfile
+Procfile

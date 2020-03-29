@@ -27,7 +27,7 @@
 
 <!--- Phone --->
 <section>
-	<hr class="featurette-divider">
+	<hr class="featurette-divider marginBetweenCard">
 
 	<div class="jumbotron">
 	  <h1 class="display-4">Telefone</h1>
@@ -40,7 +40,7 @@
 
 <!--- Email --->
 <section>
-	<hr class="featurette-divider mt-5 mb-5">
+	<hr class="featurette-divider marginBetweenCard">
 
 	<div class="jumbotron">
 	  <h1 class="display-4">Email</h1>
@@ -53,7 +53,7 @@
 
 <!--- Present --->
 <section>
-	<hr class="featurette-divider mt-5 mb-5">
+	<hr class="featurette-divider marginBetweenCard">
 
 	<div class="jumbotron">
 	  <h1 class="display-4">Secretaria</h1>
@@ -66,7 +66,7 @@
 
 <!--- Director --->
 <section>
-	<hr class="featurette-divider mt-5 mb-5">
+	<hr class="featurette-divider marginBetweenCard">
 
 	<div class="jumbotron">
 	  <h1 class="display-4">Diretor</h1>
